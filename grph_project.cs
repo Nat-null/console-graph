@@ -33,7 +33,7 @@
             {
                 if (( i == 21 ) && ( k == 21 )) Console.Write("—✛—");// check if it's the center of the graph and print the intersection looks
                 else if (( i == 21 ) && ( k != 21 )) Console.Write("———");// the X line
-                else if (( i != 2 ) && ( k == 21 )) Console.Write(" ⎮ ");// the Y line
+                else if (( i != 21 ) && ( k == 21 )) Console.Write(" ⎮ ");// the Y line
                 else Console.Write(" . "); // normal point
             }
             Console.WriteLine();// go down a line to start a new one
